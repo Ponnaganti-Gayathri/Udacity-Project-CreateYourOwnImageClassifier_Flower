@@ -1,8 +1,10 @@
-🌸 Flower Image Classifier
+# 🌸 Flower Image Classifier
 
 A deep learning project built with PyTorch and transfer learning (AlexNet, VGG16) to classify flower images into multiple categories. The model efficiently predicts the top 3 most probable flower types from a test image.
 
-🚀 Features
+---
+
+# 🚀 Features
 
 Trained using transfer learning with pre-trained CNN architectures.
 
@@ -14,7 +16,9 @@ Robust handling of missing or mislabeled classes.
 
 Clean console output with top 3 predictions and probabilities.
 
-🧠 Model Details
+---
+
+# 🧠 Model Details
 
 Framework: PyTorch
 
@@ -26,7 +30,9 @@ Loss Function: CrossEntropyLoss
 
 Dataset: Flowers Split Dataset (custom organized version of the Flowers dataset)
 
-⚙️ How to Run
+---
+
+# ⚙️ How to Run
 
 Clone the repository
 
@@ -59,7 +65,9 @@ You’ll be prompted to enter the flower name (folder name) and image file name.
 
 The program displays the top 3 predicted classes with probabilities.
 
-📊 Example Output
+---
+
+# 📊 Example Output
 Enter flower class folder (e.g., daisy, rose): daisy
 Enter image file name (e.g., 1.jpg): 1.jpg
 ---------------------------------------------------
@@ -69,7 +77,9 @@ Predictions:
 3. Dandelion - 27.7%
 ---------------------------------------------------
 
-📂 Project Structure
+---
+
+# 📂 Project Structure
 Flower-Image-Classifier/
 │
 ├── flowers_split/              # Dataset
@@ -80,7 +90,9 @@ Flower-Image-Classifier/
 ├── requirements.txt            # Dependencies
 └── README.md                   # Project documentation
 
-💡 Future Enhancements
+---
+
+# 💡Future Enhancements
 
 Add GUI for image upload and live predictions.
 
@@ -88,7 +100,9 @@ Extend support to more flower species.
 
 Deploy as a web app using Streamlit or Flask.
 
-👩‍💻 Author
+---
+
+# 👩‍💻 Author
 
 Ponnaganti Gayathri
 🌐 GitHub Profile
