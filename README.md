@@ -34,36 +34,36 @@ Dataset: Flowers Split Dataset (custom organized version of the Flowers dataset)
 
 # ⚙️ How to Run
 
--Clone the repository
+- Clone the repository
 
 git clone https://github.com/<your-username>/Flower-Image-Classifier.git
 cd Flower-Image-Classifier
 
 
--Create and activate a virtual environment
+- Create and activate a virtual environment
 
 python -m venv venv
 venv\Scripts\activate  # for Windows
 
 
--Install dependencies
+- Install dependencies
 
 pip install -r requirements.txt
 
 
--Run training (optional)
+- Run training (optional)
 
 python train.py
 
 
--Run prediction
+- Run prediction
 
 python prediction.py
 
 
--You’ll be prompted to enter the flower name (folder name) and image file name.
+- You’ll be prompted to enter the flower name (folder name) and image file name.
 
--The program displays the top 3 predicted classes with probabilities.
+- The program displays the top 3 predicted classes with probabilities.
 
 ---
 
@@ -80,15 +80,15 @@ Predictions:
 ---
 
 # 📂 Project Structure
--Flower-Image-Classifier/
--│
--├── flowers_split/              # Dataset
--├── train.py                    # Model training script
--├── prediction.py               # Image prediction script (interactive)
--├── checkpoint.pth              # Saved trained model
--├── cat_to_name.json            # Category-to-class name mapping
--├── requirements.txt            # Dependencies
--└── README.md                   # Project documentation
+- Flower-Image-Classifier/
+- │
+- ├── flowers_split/              # Dataset
+- ├── train.py                    # Model training script
+- ├── prediction.py               # Image prediction script (interactive)
+- ├── checkpoint.pth              # Saved trained model
+- ├── cat_to_name.json            # Category-to-class name mapping
+- ├── requirements.txt            # Dependencies
+- └── README.md                   # Project documentation
 
 ---
 
@@ -104,5 +104,5 @@ Deploy as a web app using Streamlit or Flask.
 
 # 👩‍💻 Author
 
--Ponnaganti Gayathri
--🌐 GitHub Profile
+- Ponnaganti Gayathri
+- 🌐 GitHub Profile
